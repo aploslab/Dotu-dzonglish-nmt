@@ -5,9 +5,9 @@ between English and Romanized Dzongkha (Dzonglish).
 
 **Paper:** A Neural Machine Translation Approach for Bidirectional 
 Translation between English and Roman Dzongkha  
-**Institution:** Gyalpozhing College of Information Technology, Royal University of Bhutan  
+**Institution:** Gyalpozhing College of Information Technology, Royal University of Bhutan & Aplos Lab
 **Course:** CSA402 Natural Language Processing  
-**Authors:** Ugyen Dendup, Chime Gyeltshen Dorji, Tshering Gyeltshen  
+**Authors:** Ugyen Dendup, Tshering Gyeltshen*, Chime Gyeltshen Dorji*
 
 ---
 
@@ -47,7 +47,6 @@ Set runtime to T4 GPU. Upload your CSV and run all cells.
 
 If you use this dataset or code, please cite:
 
-Dendup, U., Dorji, C. G., & Gyeltshen, T. (2025). A Neural Machine 
+Dendup, U., & Gyeltshen, T.*, Dorji, C. G.* (2025). A Neural Machine 
 Translation Approach for Bidirectional Translation between English 
-and Roman Dzongkha. CSA402 Natural Language Processing, 
-Gyalpozhing College of Information Technology, Royal University of Bhutan.
+and Roman Dzongkha. Gyalpozhing College of Information Technology, Royal University of Bhutan & Aplos Lab
