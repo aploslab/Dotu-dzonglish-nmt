@@ -1,6 +1,15 @@
-# Dzonglish NMT
+# Dzonglish NMT — Bidirectional English ↔ Roman Dzongkha Translation
 
-Bidirectional Neural Machine Translation between English and Romanized Dzongkha.
+First neural machine translation system for bidirectional translation 
+between English and Romanized Dzongkha (Dzonglish).
+
+**Paper:** A Neural Machine Translation Approach for Bidirectional 
+Translation between English and Roman Dzongkha  
+**Institution:** Gyalpozhing College of Information Technology, Royal University of Bhutan  
+**Course:** CSA402 Natural Language Processing  
+**Authors:** Ugyen Dendup, Chime Gyeltshen Dorji, Tshering Gyeltshen  
+
+---
 
 ## Links
 
@@ -11,6 +20,34 @@ Bidirectional Neural Machine Translation between English and Romanized Dzongkha.
 | EN to DZ Model | https://huggingface.co/ugyentech/dzonglish-marian-en-dz |
 | DZ to EN Model | https://huggingface.co/ugyentech/dzonglish-marian-dz-en |
 
-## Write your full content below this line
+## Dataset
 
----
+- 3,813 parallel English–Dzonglish sentence pairs
+- Collected via crowdsourced web platform
+- Covers everyday conversational domains
+- Split: 70% train / 15% val / 15% test
+- Located in `dataset/`
+
+## Models Evaluated
+
+| Model | EN→DZ BLEU | DZ→EN BLEU |
+|---|---|---|
+| Seq2Seq GRU | 0.00 | 0.00 |
+| Seq2Seq + Teacher Forcing | 0.00 | 0.00 |
+| Seq2Seq + Attention | 0.00 | 1.14 |
+| Transformer | 0.00 | 0.00 |
+| MarianMT (fine-tuned) | **5.24** | **3.59** |
+
+## Quickstart
+
+Open `notebooks/Dzonglish_NMT_Final.ipynb` in Google Colab.  
+Set runtime to T4 GPU. Upload your CSV and run all cells.
+
+## Citation
+
+If you use this dataset or code, please cite:
+
+Dendup, U., Dorji, C. G., & Gyeltshen, T. (2025). A Neural Machine 
+Translation Approach for Bidirectional Translation between English 
+and Roman Dzongkha. CSA402 Natural Language Processing, 
+Gyalpozhing College of Information Technology, Royal University of Bhutan.
